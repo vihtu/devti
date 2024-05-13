@@ -283,6 +283,27 @@ img {
   .best-item .book {
      max-width: 10rem;
   }
+
+
+  .best-item2 {
+    margin: 0px;
+ }
+ .best-item2 h4 {
+    font-size: 2rem;
+ }
+ .best-item2 p {
+    font-size: 1rem;
+ }
+ .normal-item2 {
+    margin-top: 3rem;
+ }
+ .normal-item2 .book {
+    max-width: 9rem;
+ }
+ .best-item2 .book {
+    max-width: 10rem;
+ }
+
  
 
   
