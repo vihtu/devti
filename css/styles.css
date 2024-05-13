@@ -89,7 +89,7 @@ img {
 .normal-item .book{
   max-width: 10.9375rem;
   position: absolute;
-  top: -120px;
+  top: -97px;
 }
 
 .best-item {
@@ -112,9 +112,9 @@ img {
 }
 
 .best-item .book{
-  max-width: 12.25rem;
+  max-width: 10.25rem;
   position: absolute;
-  top: -120px;
+  top: -50px;
 }
 
 .best-item h4 {
@@ -122,7 +122,7 @@ img {
 }
 
 .best-item button {
-  background: var(--cor-10);
+  background: #212428(--cor-10);
 }
 
 .best-item:hover  {
@@ -132,8 +132,8 @@ img {
 .normal-item button,
 .best-item button {
   margin-bottom: 4.25rem;
+  width: 170px;
 }
-
 
 
 
@@ -207,8 +207,9 @@ img {
 }
 
 .best-item2 button {
-  background: var(--cor-10);
-    margin: 12px;
+  background: #212428(--cor-10);
+  margin: 10px;
+  width: 170px
 }
 
 .best-item2:hover  {
@@ -218,20 +219,8 @@ img {
 .normal-item2 button,
 .best-item button {
   margin-bottom: 4.25rem;
+  width: 170px
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 1000px) {
@@ -258,7 +247,7 @@ img {
      max-width: 9rem;
   }
   .best-item .book {
-     max-width: 14rem;
+     max-width: 10rem;
   }
 }
 footer {
@@ -375,8 +364,11 @@ nav ul li a:hover {
      cursor: pointer;
      border: none;
      color: white;
-     font: 700 1.125rem/1.35 "Sen", sans-serif;
+     font: 710 2.125rem/1.35 "Sen", sans-serif;
      gap: .5rem;
+     flex-direction: row-reverse;
+        align-content: stretch;
+        margin: -27px;
   }
   #hamburguer {
      width: 20px;
@@ -477,7 +469,7 @@ nav ul li a:hover {
   max-width: 1280px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: auto;
+
   margin-right: auto;
 }
 
@@ -530,8 +522,8 @@ nav ul li a:hover {
   --cor-main: #4AED78;
   --cor-p4: #98FFAF;
   --cor-p3: #70FF98;
-  --cor-p2: #00D93D;
-  --cor-p1: #00B633;
+  --cor-p2: #212428;
+  --cor-p1: #FF014F;
 }
 
 .cor-w {
