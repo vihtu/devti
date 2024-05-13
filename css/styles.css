@@ -180,9 +180,9 @@ img {
 }
 
 .normal-item2 .book{
-  max-width: 15.9375rem;
+  max-width: 17.9375rem;
   position: absolute;
-  top: -42px;
+  top: -57px;
 }
 
 .best-item2 {
@@ -205,9 +205,9 @@ img {
 }
 
 .best-item2 .book{
-  max-width: 15.25rem;
+  max-width: 17.25rem;
   position: absolute;
-  top: -42px;
+  top: -57px;
 }
 
 .best-item2 h4 {
@@ -298,10 +298,10 @@ img {
     margin-top: 3rem;
  }
  .normal-item2 .book {
-    max-width: 9rem;
+    max-width: 16rem;
  }
  .best-item2 .book {
-    max-width: 10rem;
+    max-width: 16rem;
  }
 
  
