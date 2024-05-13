@@ -208,6 +208,7 @@ img {
 
 .best-item2 button {
   background: var(--cor-10);
+    margin: 12px;
 }
 
 .best-item2:hover  {
