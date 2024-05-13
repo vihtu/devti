@@ -510,6 +510,7 @@ nav ul li a:hover {
 @media (max-width: 400px) {
   .btn {
   padding: 0.425rem 0.9rem;
+  margin: 10px;
   }
 }
 :root {
