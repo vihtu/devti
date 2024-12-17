@@ -1,417 +1,533 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/img/html.jpeg">
-     <link rel="stylesheet" href="/css/styles.css">
-
-	             
-		<script id="hotmart_launcher_script">
-			(function(l,a,u,n,c,h,e,r){l['HotmartLauncherObject']=c;l[c]=l[c]||function(){
-			(l[c].q=l[c].q||[]).push(arguments)},l[c].l=1*new Date();h=a.createElement(u),
-			e=a.getElementsByTagName(u)[0];h.async=1;h.src=n;e.parentNode.insertBefore(h,e)
-			})(window,document,'script','//launcher.hotmart.com/launcher.js','hot');
-
-			hot('account','257e1090-d2fc-3d30-8077-f118c6dcb96a');
-		</script>
-
-
-		
-		
-
-	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Unique</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+ 
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+ 
 </head>
-    <title> aulas  &#8211; dev </title>
-<meta name='robots' content='max-image-preview:large' />
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<body>
 
-	
-
-
-
-
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script type="text/javascript" src="https://dztfix.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-
-        <style type="text/css">
-
-            /************************************************************************************
-             * General
-             ************************************************************************************/
-            /* Primary [#ff014f] */
-                          
-            
-                                    
-        </style>
-        <!--/Customizer CSS-->
-        <meta name="generator" content="Elementor 3.16.3; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
-        <script src="script.js" defer></script>
-        <link rel="stylesheet" href="css/styles.css">
-
-
-            </header>
-</div>
-<div class="header-style-2 d-block d-xl-none">
-    <div class="row align-items-center">
-        <div class="col-6">
-            <div class="logo">
-                                    <a href=""
-                       title="" rel="home">
-                                                                                    <img class=""
-                                     alt="">
-                                                    
-                    </a>
-                            </div>
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+	  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
-
-        <main class="container">
-          <nav id="nav">
-             <img  >
-             <button id="btn-mobile">
-                Menu
-                <span id="hamburguer"></span>
-             </button>
-             <ul id="menu">
-               
-                <li class="font-2-m cor-w"><a href="https://mycollection.shop/achadosbrr?share_channel_code=1">PRODUTOS</a></li>
-                <li class="font-2-m cor-w"><a href="#ebook">EBOOKS</a></li>
-                <li><button class="main-botton font-2-m"><a href="#aula">COMPRAR</a></button></li>
-                <li class="exit-btn"><img src="img/exit.svg" alt=""></li>
-             </ul>
-          </nav>
-       </main>
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+        <li class="active">
+       
+      </li>
       
-            <!-- end -->
-        </div>
+			  <li><a href="#Portfolio" class="scroll-link">curso</a></li>
+			  <li><a href="#Portfolio" class="scroll-link">livros</a></li>
+        <li><a href="#faq" class="scroll-link">FAQ</a></li>
+		
+			</ul>
+      </div>
+	 </nav>
     </div>
+  </div>
+</header>
+<!--Header_section
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEV.GET</title>
-    <style>
-        /* Reset de estilo básico */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body, html {
-            height: 100%;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Seção principal */
-        .banner {
-            background-image: url('img/CAPA2.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-
-        .banner h1 {
-            font-size: 5rem;
-            text-transform: uppercase;
-        }
-
-        /* Estilo do texto que muda dinamicamente */
-        .headline {
-            display: block;
-            font-size: 2rem;
-            margin-top: 20px;
-        }
-
-        .cd-words-wrapper {
-            display: block;
-            position: relative;
-            height: 40px; /* Altura para garantir que os elementos fiquem visíveis um de cada vez */
-        }
-
-        .cd-words-wrapper b {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            opacity: 0;
-            transform: translateY(100%);
-            transition: all 0.5s ease;
-        }
-
-        .cd-words-wrapper b.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Estilo para sobreposição escura no fundo */
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height:  100%;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-
-        /* Estilo das partículas */
-        #particles-js {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-        }
-    </style>
-
-
-    <!-- Seção principal -->
-    <section class="banner">
-        <div class="overlay"></div>
-        <div class="content">
-            <h1>DEV.GET</h1>
-            <span class="headline">
-                <span> Cursos
-de Tecnologia </span>
-                <span class="cd-words-wrapper">
-                    <b class="is-visible"></></b>
-                    <b></b>
-                </span>
-            </span>
-        </div>
-        <!-- Div para as partículas -->
-        <div id="particles-js"></div>
-    </section>
-
-    <script>
-        // Alternância de palavras
-        let words = document.querySelectorAll('.cd-words-wrapper b');
-        let current = 0;
-
-        function switchWord() {
-            words[current].classList.remove('is-visible');
-            current = (current + 1) % words.length;
-            words[current].classList.add('is-visible');
-        }
-
-        setInterval(switchWord, 4000); // Alterna as palavras a cada 4 segundos
-
-        // Configuração do Particles.js
-        particlesJS.load('particles-js', 'path/to/particlesjs-config.json', function() {
-            console.log('Particles.js configurado.');
-        });
-    </script>
-
-    <!-- Particles.js biblioteca -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-
-
-
-
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula em Vídeo</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Biblioteca AOS para animação ao rolar -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <section id="features" class="section-features">
-        <div class="container">
-            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
-               
-                <h2 class="title">AULA EM VIDEO</h2>
-            </div>
-        </div>
-    </section>
-
-    <!-- Scripts da biblioteca AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-
-
-
-
-
-<section id="aula" class="aula container">
-
-        <section id="ebooks" class="ebooks container">
-          <h1 class="font-1-sup cor-main">  </h1>
-          <div class="items">
-             
-           <div class="normal-item2">
-                <img class="book" src="img/capa react .png" alt="Ebook sobre Prog. Orientada a objetos">
-                <h4 class="font-1-l cor-w"><strong>AULA EM VIDEO DE REACT  </strong></h4>
-                <p class="font-2-s cor-p4">É uma aula em vídeo abrangente que explora os fundamentos essenciais do React, incluindo conceitos fundamentais, dependências do React, criação de componentes, importação de imagens com React, e uma variedade de outros tópicos essenciais para a compreensão e aprofundamento no desenvolvimento com React   .</p>
-                <span class="cor-w font-1-sup item1"> </span>
-                <button class="btn font-2-l"><a target="_blank" href="https://vihtu.github.io/aulareact/">Saiba Mais</a><img src="img/arrow.svg" alt=""></button>
-             </div>
-
-               <div class="best-item2">
-                <img class="book" src="img/capa js react html.png" alt="Os dois ebooks">
-                <h4 class="font-1-sup cor-w"ss.pn><strong>  Front-end: HTML, CSS, JavaScript e React   </strong></h4>
-                <p class="font-2-m cor-10">Transforme seu aprendizado com 4 Módulo  em vídeo! Domine os conceitos de HTML, CSS, JavaScript e React e revolucione suas habilidades de desenvolvimento web. Cada aula oferece uma exploração aprofundada e prática que garantirá uma compreensão completa e aplicada dessas tecnologias essenciais. Não perca essa oportunidade de se tornar um especialista em desenvolvimento web..</p>
-                <h3 class="cor-10 font-1-l"></h3>
-                <span class="cor-10 font-1-sup"> </span>
-                <button class="btn font-2-l"><a target="_blank" href="https://vihtu.github.io/front/">Saiba Mais</a><img src="img/arrow.svg" alt="seta"></button>
-             </div>
-
-
-               <div class="normal-item2">
-                <img class="book" src="img/capa js.png" alt="Ebook sobre engenaria da programação">
-                <h4 class="font-1-l cor-w"><strong> AULA EM VIDEO DE JAVASCRIPT 
-                 </strong></h4>
-                <p class="font-2-s cor-p4">Assista à nossa aula em vídeo abrangente que desbrava os conceitos fundamentais do JavaScript! Explore tópicos cruciais como variáveis, palavras reservadas, estrutura das funções, prompt, if else, while, do while, for, arrow functions, argumentos padrão, arrays, loops em arrays, push e pop, indexOf e lastIndexOf, split, join e muito mais. Não perca a chance de dominar JavaScript de forma prática e envolvente!    .</p>
-                <span class="cor-w font-1-sup"> </span>
-                <button class="btn font-2-l"><a target="_blank" href="https://vihtu.github.io/aulajavascript/">Saiba Mais</a><img src="img/arrow.svg" alt="seta"></button>
-             </div>    
-                    
-          <div class="normal-item2">
-               <img class="book" src="img/full stack.png" alt="Ebook sobre engenaria da programação">
-               <h4 class="font-1-l cor-w"><strong> FULL STACK 
-                </strong></h4>
-               <p class="font-2-s cor-p4">O curso full stack turbo é um treinamento voltado para pessoas que desejam aprender programação de verdade, nele você vai aprender as principais tecnologias do mercado de desenvolvimento tais como: HTML5, CSS3, JAVASCRIPT, BOOTSTRAP, JQUERY, WEBPACK, GULP, GIT, GITHUB, REACTJS, TERMINAL LINUX, NODEJS, EXPRESSJS, EJS, API.</p>
-               <span class="cor-w font-1-sup"></span>
-               <button class="btn font-2-l"><a target="_blank" href="https://hotm.art/MeElB2t">Saiba Mais</a><img src="img/arrow.svg" alt="seta"></button>
-            </div>     
-   
-            <div class="normal-item2">
-               <img class="book" src="img/pythoncurso.jpg" alt="Ebook sobre engenaria da programação">
-               <h4 class="font-1-l cor-w"><strong>     PYTHON
-                </strong></h4>
-               <p class="font-2-s cor-p4">curso "PYTHON 2024" do Instituto TECMAT tem o propósito de ter a melhor didática disponível para você. Afinal, de que adianta adquirir um curso de programação que você não entenda? Aprenda: Python, Power BI, Pandas, SQL, Numpy, Tkinter, Matplotlib, Sklearn e muito mais.</p>
-               <span class="cor-w font-1-sup"></span>
-               <button class="btn font-2-l"><a target="_blank" href="https://hotm.art/SFp2eqmV">Comprar Agora</a><img src="img/arrow.svg" alt="seta"></button>
-            </div>     
-   
-        
-
-        </section>
-
-
-
-
-		  
-    
-       
-    
-    
-    
-    
-    
-    
-         
-
-
-
-
-
-		  
-
-         
-      <div class="elementor-widget-container">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E-BOOKS</title>
-        <link rel="stylesheet" href="styles.css">
-        <!-- Biblioteca AOS para animação ao rolar -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-        <section id="features" class="section-features">
-            <div class="container">
-                <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
-                   
-                    <h2 class="title">E-BOOKS</h2>
-                </div>
-            </div>
-        </section>
-                
-           
-
-        </section>
-
-        <section id="ebook" class="ebook container">
-
-        <section id="ebooks" class="ebooks container">
-          <h1 class="font-1-sup cor-main"></h1>
-          <div class="items">
-            <div class="normal-item">
-              <img class="book" src="img/segurança ata.png" alt="Ebook sobre Prog. Orientada a objetos">
-              <h4 class="font-1-l cor-w"><strong>SEGURANÇA CIBERNÉTICA</strong></h4>
-              <p class="font-2-s cor-p4">Com exemplos claros e práticos este guia ensina como  protegerem seus ativos digitais contra ameaças cada vez mais sofisticadas. Desde conceitos básicos até estratégias avançadas de defesa cibernética, este guia fornecerá uma base sólida para indivíduos e organizações interessados em fortalecer sua postura de segurança na era digita.</p>
-              <span class="cor-w font-1-sup item1">R$ 9,00 </span>
-              <button class="btn font-2-l"><a target="_blank" href="https://pay.kiwify.com.br/XXV9Anf">Comprar Agora</a><img src="img/arrow.svg" alt=""></button>
-           </div>
-  
-           
-           <div class="best-item">
-          <img class="book" src="img/ebok js html css.png" alt="Os dois ebooks">
-              <h4 class="font-1-sup cor-w"ss.pn><strong>JS HTML CSS</strong></h4>
-              <p class="font-2-m cor-10">Com esses três guias, você terá uma compreensão completa dos conceitos fundamentais de html css e javascript,  as três tecnologias essenciais para a criação de páginas da web modernas.</p>
-              <h3 class="cor-10 font-1-l">R$ 15,00</h3>
-              <span class="cor-10 font-1-sup">R$ 9,50</span>
-              <button class="btn font-2-l"><a target="_blank" href="https://pay.cakto.com.br/453ZMhp">Comprar Agora</a><img src="img/arrow.svg" alt="seta"></button>
-           </div>
-           <div class="normal-item">
-              <img class="book" src="img/engenharia.png" alt="Ebook sobre engenaria da programação">
-              <h4 class="font-1-l cor-w"><strong>ENGENHARIA DE SOFTWARE</strong></h4>
-              <p class="font-2-s cor-p4">É um ebook que apresenta os conceitos de engenharia de software, essenciais para o desenvolvimento de soluções digitais eficazes e de alta qualidade. Desde conceitos básicos até metodologias de desenvolvimento e práticas de engenharia de software modernas, este guia oferece uma base sólida para profissionais e estudantes interessados em dominar os aspectos essenciais dessa disciplina.</p>
-              <span class="cor-w font-1-sup">R$ 9,00</span>
-              <button class="btn font-2-l"><a target="_blank" href="https://pay.kiwify.com.br/nq9luob">Comprar Agora</a><img src="img/arrow.svg" alt="seta"></button>
-           </div>
-            
-           
-           <div class="normal-item">
-              <img class="book" src="img/aws nu.jpeg" alt="Ebook sobre engenaria da programação">
-              <h4 class="font-1-l cor-w"><strong> AMBIENTE DE COMPUTAÇÃO EM NUVEM AWS 
-               </strong></h4>
-              <p class="font-2-s cor-p4">É um ebook que apresenta as principais soluções de computação, armazenamento e rede na Amazon Web Services Desenvolver conhecimento e capacidade de provisionamento e gestão de recursos computacionais, de armazenamento e de rede na nuvem da
-                 Amazon Web Services, seguindo boas práticas .</p>
-              <span class="cor-w font-1-sup">R$ 9,00</span>
-              <button class="btn font-2-l"><a target="_blank" href="https://pay.kiwify.com.br/vfG1TXR">Comprar Agora</a><img src="img/arrow.svg" alt="seta"></button>
-           </div>
-             
-           <div class="normal-item">
-              <img class="book" src="img/compila.png" alt="Ebook sobre Prog. Orientada a objetos">
-              <h4 class="font-1-l cor-w"><strong>O COMPILADOR </strong></h4>
-              <p class="font-2-s cor-p4">Você já parou para pensar como um programa escrito em uma linguagem de programação
-                 qualquer é convertido para um conjunto de comandos que podem ser executados por um
-                 computador esse ebook apresenta o processo de tradução para criação de um código em linguagem de máquina, apresentando
-                 os passos da compilação, a estrutura funcional de um compilador e seus componentes .</p>
-              <span class="cor-w font-1-sup item1">R$ 9,00</span>
-              <button class="btn font-2-l"><a target="_blank" href="https://pay.kiwify.com.br/YIkMf5n">Comprar Agora</a><img src="img/arrow.svg" alt=""></button>
-           </div>
-        
-       
-
-           
-					
-							
-           
-		            </div>
-</main><!-- End Page Wrapper -->
-<footer class="rn-footer-area rn-section-gap section-separator">
+<section id="hero_section" class="top_cont_outer">
+  <div class="hero_wrapper">
     <div class="container">
+      <div class="hero_section">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="footer-area text-center">
-                    
-                                            <p class="description mt--30">© 2024. DEV_sete </p>
-                                    </div>
-            </div>
+          <div class="col-lg-5 col-sm-7">
+            <div class="top_left_cont zoomIn wow animated"> 
+              <h2>Desperte o <strong>Potencial Infinito </strong>da Sua Mente!</h2>
+              <p></p>
+              <a href="#Portfolio" class="read_more2">Desbloquear</a> </div>
+          </div>
+          <div class="col-lg-7 col-sm-5">
+			<img src="https://static-media.hotmart.com/8-8HHBMU7XSOaX-ZAh8xgqnr5ZQ=/filters:background_color(white)/hotmart/product_pictures/03bbf958-5fd5-4198-a63b-b4809c0b3221/dese.jpg" class="zoomIn wow animated" alt="" />
+		  </div>
         </div>
+      </div>
     </div>
-</footer>    <div class="backto-top position-right"><!-- Back to  top Start -->
+  </div>
+</section>
+<!--Hero_Section--> 
+
+<section id="aboutUs"><!--Aboutus--
+<div class="inner_wrapper">
+  <div class="container">
+    <h2>About Us</h2>
+    <div class="inner_section">
+	<div class="row">
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/about-img.jpg" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+        	<div class=" delay-01s animated fadeInDown wow animated">
+			<h3>Lorem Ipsum has been the industry's standard dummy text ever..</h3><br/> 
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.PageMaker including versions of Lorem Ipsum.</p> <br/>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+<div class="work_bottom"> <span>Want to know more..</span> <a href="#contact" class="contact_btn">Contact Us</a> </div>       
+	   </div>
+      	
+      </div>
+	  
+      
+    </div>
+  </div> 
+  </div>
+</section>
+<!--Aboutus--> 
+
+
+<!--Service--
+<section  id="service">
+  <div class="container">
+    <h2>Services</h2>
+    <div class="service_wrapper">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service_block">
+            <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-android"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Android</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">			
+          <div class="service_block">
+            <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-apple"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Apple IOS</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">
+          <div class="service_block">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-html5"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Design</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+          </div>
+        </div>
+      </div>
+	   <div class="row borderTop">
+        <div class="col-lg-4 mrgTop">
+          <div class="service_block">
+            <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-dropbox"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Concept</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft mrgTop">
+          <div class="service_block">
+            <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-slack"></i></span> </div>
+            <h3 class="animated fadeInUp wow">User Research</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft mrgTop">
+          <div class="service_block">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-users"></i></span> </div>
+            <h3 class="animated fadeInUp wow">User Experience</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+Service-->
+
+
+
+
+<!-- Portfolio -->
+<section id="Portfolio" class="content"> 
   
+  <!-- Container -->
+  <div class="container portfolio_title"> 
+    
+    <!-- Title -->
+    <div class="section-title">
+      <h2>Cursos e livros</h2>
+    </div>
+    <!--/Title --> 
+    
+  </div>
+  <!-- Container -->
+  
+  <div class="portfolio-top"></div>
+  
+  <!-- Portfolio Filters -->
+  <div class="portfolio"> 
+    
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>Todos</h5>
+          </a></li>
+        
+
+        <li><a class="" href="#" data-filter=".prototype">
+          <h5>Cursos</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".design">
+          <h5>Livros </h5>
+          </a></li>
 
 
+         
+       
+      </ul>
+    </div>
+    <!--/Portfolio Filters --> 
+    
+    <!-- Portfolio Wrapper -->
+    <div class="isotope fadeInLeft animated wow" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper"> 
+      
+      <!-- curso 1 -->
+ <div class="portfolio-item one-four prototype appleIOS isotope-item">
+        <!-- Link envolve todo o conteúdo -->
+        <a href="https://go.hotmart.com/R93260577S?dp=1" style="text-decoration: none; color: inherit;">
+          <div class="portfolio_img">
+            <img src="https://static-media.hotmart.com/f6XDCIwJO-mCTahrkPoaUu1TPNY=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/dc9c1270-c900-4a40-8fb8-b5222b58457d/pythonredimensionada.jpg?w=920" alt="Portfolio 1">
+          </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <h4 class="project_name" style="
+            display: inline-block; 
+            background-color: #df0031; 
+            color: rgb(0, 0, 0); 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            font-size: 16px; 
+            text-align: center; 
+            cursor: pointer; 
+            margin: 0;
+          ">
+          CURSO 
+          </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="portfolio-item one-four prototype appleIOS isotope-item">
+        <a href="https://go.hotmart.com/E93285274I?dp=1" target="_blank"> <!-- Link para o item -->
+        <div class="portfolio_img"> <img src="https://static-media.hotmart.com/QxxBouYPs_FsoQgrHEUBJLeZhmY=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/e916ddc5-7531-4267-8b5d-59483f844738/WhatsAppImage20240826at160756.jpeg?w=920"  alt="Portfolio 1"> </div>        
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name" style="
+            display: inline-block; 
+            background-color: #df0031; 
+            color: rgb(0, 0, 0); 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            font-size: 16px; 
+            text-align: center; 
+            cursor: pointer; 
+            margin: 0;
+          ">
+          curso
+          </h4>
+          </div>
+        </div>
+        </div>
+
+    
+
+
+
+
+
+
+
+      
+      <!-- livro-->
+
+ <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four design isotope-item">
+        <a href="https://pay.cakto.com.br/CbPQQJt" target="_blank" style="text-decoration: none;">
+          <div class="portfolio_img">
+            <img src="https://m.media-amazon.com/images/I/71FYolqY2iL._SL1500_.jpg" alt="Portfolio 1">
+          </div>
+          <div class="item_overlay">
+            <div class="item_info">
+              <!-- Transformando o título em botão -->
+              <h4 class="project_name" style="
+                display: inline-block; 
+                background-color: #df0031; 
+                color: rgb(0, 0, 0); 
+                padding: 10px 20px; 
+                border-radius: 5px; 
+                font-size: 16px; 
+                text-align: center; 
+                cursor: pointer; 
+                margin: 0;
+              ">
+                livros
+              </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+     
+      
+      
+      <!-- livro -->
+
+
+<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four design isotope-item">
+        <a href="https://pay.cakto.com.br/CCp8ggk" target="_blank"> <!-- Link para o item -->
+          <div class="portfolio_img">
+            <img src="https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/70987d2066a465753beb5a32179e9dc58b0ffd7cef699bcd896dfb32c236b487.jpg" alt="Portfolio 1">
+          </div>
+          <div class="item_overlay">
+            <div class="item_info"> 
+              <h4 class="project_name" style="
+              display: inline-block; 
+              background-color: #df0031; 
+              color: rgb(0, 0, 0); 
+              padding: 10px 20px; 
+              border-radius: 5px; 
+              font-size: 16px; 
+              text-align: center; 
+              cursor: pointer; 
+              margin: 0;
+            ">
+              livros
+            </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+	    
+
+  <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four design isotope-item">
+        <a href="https://pay.cakto.com.br/3RV7zcE" target="_blank"> <!-- Link para o item -->
+          <div class="portfolio_img">
+            <img src="https://m.media-amazon.com/images/I/71gJJbn6OGL._SL1500_.jpg" alt="Portfolio 1">
+          </div>
+          <div class="item_overlay">
+            <div class="item_info"> 
+              <h4 class="project_name" style="
+              display: inline-block; 
+              background-color: #df0031; 
+              color: rgb(0, 0, 0); 
+              padding: 10px 20px; 
+              border-radius: 5px; 
+              font-size: 16px; 
+              text-align: center; 
+              cursor: pointer; 
+              margin: 0;
+            ">
+              livros
+            </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four design isotope-item">
+        <a href="https://pay.cakto.com.br/D8Aevzo" target="_blank"> <!-- Link para o item -->
+          <div class="portfolio_img">
+            <img src="https://m.media-amazon.com/images/I/61VA0HmYhLL._SL1500_.jpg" alt="Portfolio 1">
+          </div>
+          <div class="item_overlay">
+            <div class="item_info"> 
+              <h4 class="project_name" style="
+              display: inline-block; 
+              background-color: #df0031; 
+              color: rgb(0, 0, 0); 
+              padding: 10px 20px; 
+              border-radius: 5px; 
+              font-size: 16px; 
+              text-align: center; 
+              cursor: pointer; 
+              margin: 0;
+            ">
+              livros
+            </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+
+
+    
+      
+      
+      
+      <!--/Portfolio Item--> 
+      
+    
+      
+   
+      <!-- Portfolio Item --
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Managment</h4>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item --
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">iPhone</h4>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item 
+      
+    
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>       
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Nexus Phone</h4>
+          </div>
+        </div>
+       </div>
+      <!--/Portfolio Item --> 
+      
+      <!-- pnl -
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item">
+        <a href="https://example.com/livros" target="_blank"> <!-- Link para o item -
+        <div class="portfolio_img"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>       
+        <div class="item_overlay">
+          <div class="item_info"> 
+				<h4 class="project_name">Android</h4>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item --> 
+      
+    </div>
+    <!--/Portfolio Wrapper --> 
+    
+  </div>
+  <!--/Portfolio Filters -->
+  
+  <div class="portfolio_btm"></div>
+  
+  
+  <div id="project_container">
+    <div class="clear"></div>
+    <div id="project_data"></div>
+  </div>
+ 
+  
+</section>
+
+
+<!-- FAQ Section -->
+<section id="faq" class="content">
+  <div class="container">
+    <div class="section-title">
+      <h2>Perguntas Frequentes</h2>
+    </div>
+    
+   
+
+      <!-- Pergunta 2 -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+              Como posso acessar os livros e cursos após a compra?
+            </a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">Após a compra, você receberá um link de download para acessar o livro digital no seu e-mail.</div>
+        </div>
+      </div>
+
+      <!-- Pergunta 3 -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+              Posso reembolsar a compra de um curso ou livro?
+            </a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">Sim, oferecemos uma garantia de reembolso de 7 dias para todos os nossos cursos. Se não estiver satisfeito, entre em contato conosco.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+
+
+
+        
+       
+        <div class="row">
+          <div class="col-lg-4">
+            
+          </div>
+          <div class="col-lg-4">
+           
+          </div>
+          <div class="col-lg-4">
+          
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 wow fadeInLeft">	
+		 <div class="contact_info">
+                          
+        
+        </div>
+       
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"><span>Unique © 2024,    curso e livros <a href="http://webthemez.com"></a> </span> </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 </html>
